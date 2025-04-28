@@ -12,8 +12,11 @@ return {
       vim.cmd.colorscheme 'catppuccin'
     end,
   },
-
   {
     'tpope/vim-fugitive',
+  },
+  {
+    'Exafunction/windsurf.vim',
+    event = 'BufEnter',
   },
 }
