@@ -19,6 +19,7 @@ return {
         mappings = {
           ['<leader>e'] = 'close_window',
         },
+        postion = 'right',
       },
     },
   },
